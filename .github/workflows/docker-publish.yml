@@ -8,7 +8,7 @@ name: Build Git-Gateway Docker Image
 on:
   # Run the workflow every day at 6:00 AM
   schedule:
-    cron: '24 6 * * *'
+    - cron: '24 6 * * *'
   push:
     branches: [ "main" ]
     # Publish semver tags as releases.
